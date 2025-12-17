@@ -75,6 +75,3 @@ Deux exercices structurent la mise en pratique :
   2. POC pipeline temps réel (Exercice 2) → code + conteneurisation.
   3. Documentation finale (Markdown, diagrammes Mermaid, autoévaluation, préparation bilan mentor).
 
-Si tu veux, l’étape suivante pourra être de détailler ce plan d’action en tâches plus fines (avec structure de dépôt Git, noms de fichiers, et premiers brouillons de schémas / diagrammes).
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_40d4eee1-16f0-4953-9972-2ecec4e286bc/956d57d1-94fb-49cb-b453-86125ad83dcf/Mission.pdf)
