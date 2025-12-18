@@ -93,7 +93,7 @@ Mensuel Année 2+ : $3,292/mois (ou $2,967 avec Savings Plan)
 ***
 
 ## 🔄 Optimisations incluses
-
+glu
 1. ✅ **1-year Reserved Instances** (-30% Redshift & Redpanda) = **-$4,212/an**
 2. ✅ **S3 Tiering** (Glacier after 90 days) = **-$1,500/an**
 3. ✅ **Glue instead of DMS** = **-$3,561/an**
