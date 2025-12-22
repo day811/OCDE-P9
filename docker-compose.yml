@@ -1,13 +1,11 @@
 
 services:
   redpanda:
-    image: redpandadata/redpanda:v24.1.1
+    image: redpandadata/redpanda:latest
     container_name: redpanda_exercice2
     ports:
       - "9092:9092"
       - "9644:9644"
-    environment:
-      - REDPANDA_ADVERTISED_KAFKA_API_ADDRESSES=redpanda:9092
     volumes:
       - redpanda_data:/var/lib/redpanda/data
     healthcheck:
@@ -15,12 +13,15 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
-    command: >
-      redpanda start
-      --overprovisioned
-      --smp 1
-      --memory 1G
-      --mode dev-container
+    command:
+      - redpanda
+      - start
+      - --kafka-addr
+      - 0.0.0.0:9092
+      - --advertise-kafka-addr
+      - redpanda:9092
+      - --node-id
+      - "0"
 
   init-redpanda:
     image: redpandadata/redpanda:v24.1.1
