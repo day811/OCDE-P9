@@ -60,10 +60,11 @@ class SparkProcessor:
                 .appName("TicketProcessor") \
                 .config("spark.driver.memory", self.memory) \
                 .config("spark.executor.cores", self.executor_cores) \
-                .getOrCreate()
+                .config("spark.jars.packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0") \
+                .getOrCreate() 
             
             # Set Spark log level
-            self.spark.sparkContext.setLogLevel("WARN")
+            self.spark.sparkContext.setLogLevel("WARN") # pyright: ignore[reportOptionalMemberAccess]
             
             logger.info("Spark session initialized")
             return True
