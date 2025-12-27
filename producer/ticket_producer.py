@@ -7,9 +7,9 @@ import logging
 import time
 import random
 import uuid
-from config import parse_producer_args
+from config import parse_producer_args # pyright: ignore[reportAttributeAccessIssue]
 from ticket import Ticket
-from producer import ProductionManager
+from producer import ProductionManager # pyright: ignore[reportAttributeAccessIssue]
 
 
 # Configure logging

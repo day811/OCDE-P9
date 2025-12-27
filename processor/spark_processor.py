@@ -5,8 +5,8 @@ Reads, transforms, and exports ticket data from Redpanda.
 
 import logging
 import time
-from config import parse_processor_args
-from processor import SparkProcessor
+from config import parse_processor_args # pyright: ignore[reportAttributeAccessIssue]
+from processor import SparkProcessor # pyright: ignore[reportAttributeAccessIssue]
 
 
 # Configure logging
