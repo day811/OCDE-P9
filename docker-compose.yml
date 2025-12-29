@@ -2,7 +2,7 @@
 services:
   redpanda:
     image: redpandadata/redpanda:v24.1.1
-    container_name: redpanda_exercice2
+    container_name: redpanda
     ports:
       - "9092:9092"
       - "9644:9644"
