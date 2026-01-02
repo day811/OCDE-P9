@@ -1,6 +1,6 @@
 # Exercice 2 : Pipeline ETL Temps Réel avec Redpanda et PySpark
 
-La vidéo de démonstration est disponible ici : [Projet9_part2_video.mp4](https://drive.google.com/file/d/1TWSzQy3n4KAiBbTgycDKGJ_nPMXTzU9W/view?usp=sharing)
+La vidéo de démonstration est disponible ici : [Projet9_part2_video.mp4](https://youtu.be/wuiCFop4TZc)
 
 ## 📋 Table des matières
 
