@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run processor
-CMD ["python", "spark_processor.py"]
+CMD ["python", "processor.py"]
 
